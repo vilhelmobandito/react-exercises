@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f5f5f5;
+  padding: 1rem 1.5rem;
+}
+
+.schedule {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.session-card {
+  border: 1px solid #555;
+  border-left: 6px solid #ccc;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 4px;
+}
+
+.session-card.in-seats {
+  border-left-color: #2e7d32;
+}
+.session-card.low-seats {
+  border-left-color: #f9a825;
+}
+.session-card.no-seats {
+  border-left-color: #c62828;
+}
+.session-card.online {
+  background: rgb(200, 222, 229);
+}
