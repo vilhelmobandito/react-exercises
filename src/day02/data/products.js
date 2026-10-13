@@ -1,0 +1,58 @@
+const products = [
+  {
+    id: 1,
+    name: "Tisch",
+    category: "Möbel",
+    price: 100,
+    available: true,
+    stock: 12,
+    featured: true,
+  },
+  {
+    id: 2,
+    name: "Schrank",
+    category: "Möbel",
+    price: 150,
+    available: true,
+    stock: 15,
+    featured: true,
+  },
+  {
+    id: 3,
+    name: "Waschmaschine",
+    category: "Elektro",
+    price: 510,
+    available: true,
+    stock: 2,
+    featured: false,
+  },
+  {
+    id: 4,
+    name: "Staubsauger",
+    category: "Elektro",
+    price: 90,
+    available: false,
+    stock: 0,
+    featured: false,
+  },
+  {
+    id: 5,
+    name: "Lampe",
+    category: "Elektro",
+    price: 50,
+    available: true,
+    stock: 11,
+    featured: false,
+  },
+  {
+    id: 6,
+    name: "Stuhl",
+    category: "Möbel",
+    price: 60,
+    available: true,
+    stock: 20,
+    featured: true,
+  },
+];
+
+export default products;
